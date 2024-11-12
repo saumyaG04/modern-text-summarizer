@@ -1,10 +1,10 @@
 # Modern Text Summarizer
 
-This is a GUI-based text summarizer application built with `customtkinter` and powered by a pre-trained NLP model (BART) from Hugging Face's `transformers` library. It provides a modern interface where users can input text and receive a concise summary. The BART model is specifically fine-tuned for summarization, making this application effective for condensing long texts into shorter versions.
+This is a GUI-based text summarizer application built with `customtkinter` and powered by a pre-trained NLP model (BART) from Hugging Face's `transformers` library. It provides a modern, dark-themed interface where users can input text and receive a concise summary. The BART model is specifically fine-tuned for summarization, making this application effective for condensing long texts into shorter versions.
 
 ## Features
 - **Text Summarization using NLP**: Utilizes the BART transformer model, a powerful NLP model for generating high-quality text summaries.
-- **Modern GUI**: Built with `customtkinter`, providing a clean interface.
+- **Modern GUI**: Built with `customtkinter`, providing a clean, dark-mode interface.
 - **Single Executable**: Can be packaged as a standalone executable for easy distribution.
 
 ## How It Works
@@ -49,13 +49,6 @@ pip install pyinstaller
 pyinstaller --onefile --windowed text_summarizer_gui.py
 
 This will create an executable in the dist folder, which you can run independently.
-
-Large File Storage
-
-If you directly want the dist and dict folders it is uploaded in dropbox (link attacehed below):
-
-Dropbox
-
 Dependencies
 
     transformers (for the BART model)
