@@ -49,6 +49,13 @@ pip install pyinstaller
 pyinstaller --onefile --windowed text_summarizer_gui.py
 
 This will create an executable in the dist folder, which you can run independently.
+
+Large File Storage
+
+If you directly want the dist and dict folders it is uploaded in dropbox (link attacehed below):
+
+Dropbox
+
 Dependencies
 
     transformers (for the BART model)
